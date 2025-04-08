@@ -1,0 +1,310 @@
+@using System.Globalization
+@{
+ViewBag.Title = "Profile";
+}
+<div class="container">
+    <div class="row">
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Günlük Tüketim</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TodayConsumption L</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fa-solid fa-glass-water fa-2x text-gray-300"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Haftalık Tüketim </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.WeeklyTotal L</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fa-solid fa-bottle-water fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                Aylık Tüketim</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.MonthlyTotal L</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fa-solid fa-water fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pending Requests Card Example -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-danger shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                                Toplam</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.AllTimeTotal L</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fa-solid fa-bridge-water fa-2x text-gray-300"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    .<div class="row">
+        <div class="col-xl-12 col-lg-12">
+            <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Su Tüketimi</h6>
+
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                    <div class="row">
+                        <form asp-action="Index" method="get">
+                            <div class="form-group">
+
+                                <div class="col-md-3">
+                                    <select name="days" class="form-select" id="days">
+                                        <option value="7">Son 7 Gün</option>
+                                        <option value="14">Son 14 Gün</option>
+                                        <option value="30">Son 30 Gün</option>
+                                        <option value="60">Son 60 Gün</option>
+                                        <option value="90">Son 90 Gün</option>
+                                        <option value="180">Son 180 Gün</option>
+                                        <option value="365">Son 365 Gün</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="chart-area">
+                        <div class="chartjs-size-monitor">
+                            <div class="chartjs-size-monitor-expand">
+                                <div class=""></div>
+                            </div>
+                            <div class="chartjs-size-monitor-shrink">
+                                <div class=""></div>
+                            </div>
+                        </div>
+                        <canvas id="myAreaChart" width="484" height="320"
+                            style="display: block; width: 484px; height: 320px;"
+                            class="chartjs-render-monitor"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-xl-12 col-lg-12">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Son 24 Saat</h6>
+                </div>
+                <div class="card-body">
+                    @if(ViewBag.Today != null && ViewBag.Today.Count > 0){
+                    <table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0"
+                        role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+                        <thead>
+                            <tr role="row">
+                                <th rowspan="1" colspan="1">Tarih</th>
+                                <th rowspan="1" colspan="1">Saat</th>
+                                <th rowspan="1" colspan="1">Tüketim Miktarı </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var item in ViewBag.Today)
+                            {
+                            <tr>
+                                <td>@item.Date.ToShortDateString()</td>
+                                <td>@item.Date.ToString("HH:mm")</td>
+                                <td>@item.Total Litre</td>
+
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                    }else{
+                    <p>Tüketim Datası Yok !</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+<script>
+
+
+
+    function number_format(number, decimals, dec_point, thousands_sep) {
+        // *     example: number_format(1234.56, 2, ',', ' ');
+        // *     return: '1 234,56'
+        number = (number + '').replace(',', '').replace(' ', '');
+        var n = !isFinite(+number) ? 0 : +number,
+            prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
+            sep = (typeof thousands_sep === 'undefined') ? ',' : thousands_sep,
+            dec = (typeof dec_point === 'undefined') ? '.' : dec_point,
+            s = '',
+            toFixedFix = function (n, prec) {
+                var k = Math.pow(10, prec);
+                return '' + Math.round(n * k) / k;
+            };
+        // Fix for IE parseFloat(0.55).toFixed(0) = 0;
+        s = (prec ? toFixedFix(n, prec) : '' + Math.round(n)).split('.');
+        if (s[0].length > 3) {
+            s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep);
+        }
+        if ((s[1] || '').length < prec) {
+            s[1] = s[1] || '';
+            s[1] += new Array(prec - s[1].length + 1).join('0');
+        }
+        return s.join(dec);
+    }
+
+    function LineChart(data, labels, title, place) {
+        // Area Chart Example
+        var ctx = document.getElementById(place);
+        var myLineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: title,
+                    lineTension: 0.3,
+                    backgroundColor: "rgba(78, 115, 223, 0.05)",
+                    borderColor: "rgba(78, 115, 223, 1)",
+                    pointRadius: 3,
+                    pointBackgroundColor: "rgba(78, 115, 223, 1)",
+                    pointBorderColor: "rgba(78, 115, 223, 1)",
+                    pointHoverRadius: 3,
+                    pointHoverBackgroundColor: "rgba(78, 115, 223, 1)",
+                    pointHoverBorderColor: "rgba(78, 115, 223, 1)",
+                    pointHitRadius: 10,
+                    pointBorderWidth: 2,
+                    data: data,
+                }],
+            },
+            options: {
+                scales: {
+                    y: {
+                        title: {
+                            color: "#858796",
+                            display: true,
+                            text: 'Litre'
+                        }
+                    }
+                    ,
+                    x: {
+                        title: {
+                            color: "#858796",
+                            display: true,
+                            text: 'Günler'
+                        }
+                    }
+                },
+                maintainAspectRatio: false,
+                layout: {
+                    padding: {
+                        left: 10,
+                        right: 25,
+                        top: 25,
+                        bottom: 0
+                    }
+                },
+
+                legend: {
+                    display: false
+                },
+                tooltips: {
+                    backgroundColor: "rgb(255,255,255)",
+                    bodyFontColor: "#858796",
+                    titleMarginBottom: 10,
+                    titleFontColor: '#6e707e',
+                    titleFontSize: 14,
+                    borderColor: '#dddfeb',
+                    borderWidth: 1,
+                    xPadding: 15,
+                    yPadding: 15,
+                    displayColors: false,
+                    intersect: false,
+                    mode: 'index',
+                    caretPadding: 10,
+                    callbacks: {
+                        label: function (tooltipItem, chart) {
+                            var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
+                            return datasetLabel + ': $' + number_format(tooltipItem.yLabel);
+                        }
+                    }
+                }
+            }
+        });
+    }
+    document.getElementById("days").addEventListener("change", function () {
+    var days = document.getElementById("days").value;
+    window.location.href = "/Profile/Index/" + days;
+    });
+
+
+    @if (ViewBag.WeeklyConsumption != null) {
+            <text>window.onload = function () {</text>
+            <text>document.getElementById('days').value=@ViewBag.days</text>
+
+
+
+            <text>var labels = [];</text>
+            <text>var data = [];</text>
+        @foreach(var item in ViewBag.WeeklyConsumption)
+        {
+                <text>labels.push("@item.Date.ToShortDateString()");</text>
+                <text>data.push(@item.Total.ToString("F2", CultureInfo.InvariantCulture));</text>
+
+        }
+    <text> LineChart(data,labels,data.length+" Günlük Tüketimi","myAreaChart");</text>
+    <text>}</text>
+
+
+    }
+    else {
+        <p>No consumption data available.</p>
+    }
+
+</script>
+
+}

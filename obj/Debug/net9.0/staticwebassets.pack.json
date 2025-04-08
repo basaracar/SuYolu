@@ -1,0 +1,273 @@
+{
+  "Files": [
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/obj/Debug/net9.0/scopedcss/projectbundle/SuYolu.bundle.scp.css",
+      "PackagePath": "staticwebassets/SuYolu.e5bylrvq8q.bundle.scp.css"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/css/all.min.css",
+      "PackagePath": "staticwebassets/css/all.min.css"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/css/sb-admin-2.min.css",
+      "PackagePath": "staticwebassets/css/sb-admin-2.min.css"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/chart.js/Chart.bundle.js",
+      "PackagePath": "staticwebassets/js/chart.js/Chart.bundle.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/chart.js/Chart.bundle.min.js",
+      "PackagePath": "staticwebassets/js/chart.js/Chart.bundle.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/chart.js/Chart.js",
+      "PackagePath": "staticwebassets/js/chart.js/Chart.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/chart.js/Chart.min.js",
+      "PackagePath": "staticwebassets/js/chart.js/Chart.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/demo/chart-area-demo.js",
+      "PackagePath": "staticwebassets/js/demo/chart-area-demo.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/demo/chart-bar-demo.js",
+      "PackagePath": "staticwebassets/js/demo/chart-bar-demo.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/demo/chart-pie-demo.js",
+      "PackagePath": "staticwebassets/js/demo/chart-pie-demo.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/demo/datatables-demo.js",
+      "PackagePath": "staticwebassets/js/demo/datatables-demo.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/jquery-easing/jquery.easing.compatibility.js",
+      "PackagePath": "staticwebassets/js/jquery-easing/jquery.easing.compatibility.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/jquery-easing/jquery.easing.js",
+      "PackagePath": "staticwebassets/js/jquery-easing/jquery.easing.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/jquery-easing/jquery.easing.min.js",
+      "PackagePath": "staticwebassets/js/jquery-easing/jquery.easing.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/sb-admin-2.js",
+      "PackagePath": "staticwebassets/js/sb-admin-2.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/sb-admin-2.min.js",
+      "PackagePath": "staticwebassets/js/sb-admin-2.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/home/basar/Belgeler/DotNetProjects/SuYolu/wwwroot/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.SuYolu.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.SuYolu.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.SuYolu.props",
+      "PackagePath": "build\\SuYolu.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.SuYolu.props",
+      "PackagePath": "buildMultiTargeting\\SuYolu.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.SuYolu.props",
+      "PackagePath": "buildTransitive\\SuYolu.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

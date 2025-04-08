@@ -1,0 +1,33 @@
+@using System.Globalization
+@{
+ViewBag.Title = "Profile";
+}
+<div class="container" style="min-height: 85vh;">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12">
+            <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Kullanıcı Kodu</h6>
+
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                    <div class="row">
+                        <p>Kartınızı programlarken kullanmanız gereken sunucu yolu :
+                            <strong>https://sutuket.somee.com/api/v1/AddWaterConsumption</strong>
+                        </p>
+                        <p>Kartınızı programlarken kullanmanız gereken kullanıcı kodu : <strong>@ViewBag.UserId</strong>
+                        </p>
+                        <p>Post etmeniz gereken örnek data
+                            <strong> {
+                                "UserId":"@ViewBag.UserId",
+                                "AmountInLiters":30.7
+                                } </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
