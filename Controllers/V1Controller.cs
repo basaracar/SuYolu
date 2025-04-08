@@ -28,11 +28,16 @@ public class V1Controller : ControllerBase
     {
         if (waterUsage == null)
         {
-            return BadRequest(new { status = "FAIL", error = "Invalid input." });
+            return BadRequest(new { status = "FAIL", error = "Geçersiz Giriş" });
         }
         
         try
         {
+            var user = await _userManager.FindByIdAsync(waterUsage.UserId);
+        if (user == null)
+        {
+            return BadRequest(new { status = "FAIL", error = "Kullanıcı Kodu Hatalı" });
+        }
             var waterConsumption = new WaterConsumption
             {
                 UserId = waterUsage.UserId,
