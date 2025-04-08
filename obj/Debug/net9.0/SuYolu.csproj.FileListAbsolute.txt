@@ -311,3 +311,5 @@
 /home/basar/Belgeler/DotNetProjects/SuYolu/obj/Debug/net9.0/compressed/1ki95xlk6q-vld1fz1ls6.gz
 /home/basar/Belgeler/DotNetProjects/SuYolu/obj/Debug/net9.0/compressed/068r0aw84q-i5kgwnlnc3.gz
 /home/basar/Belgeler/DotNetProjects/SuYolu/obj/Debug/net9.0/compressed/hwgypox3xb-zwlxs8a5k3.gz
+/home/basar/Belgeler/DotNetProjects/SuYolu/bin/Debug/net9.0/appsettings.example.json
+/home/basar/Belgeler/DotNetProjects/SuYolu/obj/Debug/net9.0/SuYolu.sourcelink.json
