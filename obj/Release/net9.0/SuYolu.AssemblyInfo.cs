@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuYolu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c25abbb24e8ae167cb8dd6dda661f941a9d260d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4243f1930272073e0e6d25cd831c1dc94a5c35a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuYolu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuYolu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
