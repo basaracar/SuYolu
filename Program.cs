@@ -23,7 +23,7 @@ public class Program
         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
         // Bu satırı IdentityUser yerine ApplicationUser kullanacak şekilde güncelle
-        builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+        builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
       .AddEntityFrameworkStores<ApplicationDbContext>();
 
         // API ve Swagger desteği ekle
@@ -40,7 +40,7 @@ public class Program
 
         builder.Services.AddControllers();
         builder.Services.AddControllersWithViews();
-
+ 
         var app = builder.Build();
 
         // HTTP istek hattını yapılandır
@@ -67,8 +67,7 @@ public class Program
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}")
             .WithStaticAssets();
-        app.MapRazorPages()
-           .WithStaticAssets();
+        //app.MapRazorPages().WithStaticAssets();
 
         app.Run();
     }
